@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export const TopNavbar = () => {
   return (
-    <div className="bg-[#315AB2] text-white py-2 px-4 text-sm">
+    <div className="bg-[#315AB2] text-white py-2 px-4 text-sm hidden md:block">
       <div className="container mx-auto flex flex-wrap justify-between items-center">
         <div className="flex flex-wrap gap-6">
           <div className="flex items-center gap-1">
