@@ -13,7 +13,7 @@ export default function CustomButton() {
       className={`flex items-center justify-center gap-2 px-6 py-3 rounded-md transition-colors cursor-pointer
         ${
           hovered
-            ? "bg-transparent text-[#282572] border-2 border-[#282572]"
+            ? "bg-transparent text-white border-2 border-white"
             : "bg-[#282572] text-white"
         }`}
     >
